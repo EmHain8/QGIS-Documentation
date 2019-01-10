@@ -61,7 +61,7 @@ in the toolbars are indicated below in the table. Plugins may load in additional
 menu options to Menus. For more information about tools and toolbars, see section 
 :ref:`label_toolbars`.
 
-.. note:: QGIS is a cross-platform application - that though it provides you
+.. note:: QGIS is a cross-platform application -  although it provides you
    with the same tools, they may be placed in different menus according to the
    operating system specification. The lists below show the most common location
    including known variations.
@@ -75,9 +75,9 @@ The :menuselection:`Project` menu contains the functions associated with
 the :ref:`project file <sec_projects>`. 
 It provides you with tools to:
 
-* Create :guilabel:`New` file from scratch or using an existing project file 
+* Create a :guilabel:`New` file from scratch or using an existing project file 
   (see :ref:`Project files options <projectfiles_options>` for template configuration);
-* :guilabel:`Open...` project file from file browser or from a PostgreSQL database
+* :guilabel:`Open...` a project file from either a file browser or from a PostgreSQL database
 * :guilabel:`Close` a project or revert to its last saved state;
 * :guilabel:`Save` a project in a :file:`.qgs` or :file:`.qgz` file format, either as file
   or within a PostgreSQL database;
@@ -120,7 +120,7 @@ Under |osx| macOS, the :guilabel:`Exit QGIS` command corresponds to
 Edit
 ----
 
-The :menuselection:`Edit` menu presents most of the native tools needed to edit
+The :menuselection:`Edit` menu provides most of the native tools needed to edit
 layers attributes or geometry (see :ref:`editingvector` for details).
 
 =======================================================================  ====================  =================================   ===================================
@@ -169,7 +169,7 @@ Menu Option                                                              Shortcu
 
 |
 
-Depending on the selected layer geometry type, some of the tools may look different:
+Depending on the selected layer geometry type i.e. point, polyline or polygon, some of the tools may look different:
 
 .. :tabularcolumns: |l|c|c|c|
 
@@ -185,7 +185,7 @@ Menu Option                            Point                     Polyline       
 View
 ----
 
-The map being designed is rendered in map views. You can interact with these
+The current map appears in the map views. You can interact with these
 interfaces using the :menuselection:`View` tools (see :ref:`working_canvas`
 for more information). For example, you can:
 
@@ -195,13 +195,13 @@ for more information). For example, you can:
 * Change the map view aspect using preview modes, annotations or decorations;
 * Access any panel or toolbar.
 
-Moreover the menu allows to reorganize QGIS interface itself using actions like:
+Additionally, the menu enables personalization of the QGIS interface by:
 
 * :guilabel:`Toggle Full Screen Mode`: covers the whole screen with the
   application items while hiding its title bar;
 * :guilabel:`Toggle Panel Visibility`: shows or hides enabled :ref:`panels
-  <panels_tools>`, quite useful when digitizing features (where you want
-  maximum canvas visibility) as well as when you do a (projected/recorded)
+  <panels_tools>`.This is useful when digitizing features (where you want
+  maximum canvas visibility) and when you undertake a (projected/recorded)
   presentation using QGIS' main canvas;
 * :guilabel:`Toggle Map Only`: hides panels, toolbars, menus and status bar
   and only shows the map canvas. Combined with full screen option, it makes
@@ -245,17 +245,16 @@ Menu Option                                                Shortcut             
 
 |
 
-Under |kde| Linux KDE, :menuselection:`Panels -->`, :menuselection:`Toolbars -->`
-and :guilabel:`Toggle Full Screen Mode` are rather placed in :menuselection:`Settings`
+Under |kde| Linux KDE, the following tools: :menuselection:`Panels -->`, :menuselection:`Toolbars -->`
+and :guilabel:`Toggle Full Screen Mode` are located in the :menuselection:`Settings`
 menu.
 
 Layer
 -----
 
-The :menuselection:`Layer` menu provides a large set of tools to :ref:`create
-<sec_create_vector>` new data source, :ref:`add <opening_data>` it to a project
-or :ref:`save modifications <sec_edit_existing_layer>` done to it. Using the
-same data source, you can also:
+The :menuselection:`Layer` menu contains tools to :ref:`create
+<sec_create_vector>` new data sources, :ref:`add <opening_data>` it to a project
+or :ref:`save modifications <sec_edit_existing_layer>`. You can also:
 
 * :guilabel:`Duplicate` a layer, generating a copy you can modify within the
   same project;
@@ -264,7 +263,7 @@ same data source, you can also:
 * or :guilabel:`Embed Layers and Groups...` from another project, with their
   unmodifiable properties (see :ref:`nesting_projects`).
   
-The :menuselection:`Layer` menu  also gives access to tools to configure, copy
+The :menuselection:`Layer` menu  also contains tools to configure, copy
 or paste layer properties (style, scale, CRS...).
 
 ============================================================  ====================  ================================  =====================================
@@ -300,7 +299,7 @@ Menu Option                                                   Shortcut          
 
 Settings
 --------
-
+The Settings menu enables personalisation of QGIS by Users. You can switch between different :guilabel:`User Profiles`, manage your symbology options via the :guilabel:`Style Manager`, add in projections to :guilabel:`Custom Projections`, find out what the default :guilabel:`Keyboard Shortcuts` are or add in some of your own or just change how your interface looks via :guilabel:`Interface Customization`. It is also well worth checking what :guilabel:`Options` are there for future reference. 
 =================================================================  ====================  ====================  ===================================
 Menu Option                                                        Shortcut              Toolbar               Reference
 =================================================================  ====================  ====================  ===================================
@@ -320,7 +319,7 @@ menu such as :menuselection:`Panels -->`,
 
 Plugins
 -------
-
+The Plugin menu gives you access to Plugin management tools, some installed Plugins as well as the :guilabel:`Python Console`. 
 ======================================================================  ====================  =======================  ===============================
 Menu Option                                                             Shortcut               Toolbar                 Reference
 ======================================================================  ====================  =======================  ===============================
